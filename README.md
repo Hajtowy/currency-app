@@ -36,6 +36,12 @@ Open web browser and try api:
 
 `http://localhost:8000/api/v1/{currency}/{startDate}/{endDate}`
 
+## Run tests
+```bash
+  docker compose exec app bash
+  php artisan test
+```
+
 ## TODO: (nice to have)
 - some documentation to api like a swagger or something similar.
 - extend currency service to have xml or json return format.
